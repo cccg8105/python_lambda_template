@@ -1,0 +1,2 @@
+# python_lambda_template
+template_lambda
