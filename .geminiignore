@@ -1,0 +1,55 @@
+# ==============================================================================
+# .geminiignore - Archivos y directorios a omitir del contexto y lectura del modelo
+# ==============================================================================
+
+# Control de versiones
+.git/
+.gitignore
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# AWS SAM (Builds y artefactos locales de empaquetado)
+.aws-sam/
+
+# Caches y compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches de pruebas y linters
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Paquetes y distribución
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos de entorno y credenciales locales (manteniendo .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs y volcados temporales
+*.log
+*.tmp
+*.bak
+tempCodeRunnerFile.py
+
+# Archivos específicos de SO y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
