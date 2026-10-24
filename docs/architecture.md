@@ -81,6 +81,7 @@ graph TD
   - `config.py`: Resuelve credenciales dinámicamente desde AWS Secrets Manager (producción con caché) o variables locales (`.env`).
   - `database.py`: Mantiene la conexión singleton a Turso abierta para reutilizarla entre invocaciones en *warm starts*.
   - `exceptions.py`: Define la jerarquía de excepciones de negocio.
+  - `logging.py`: Centraliza el `Logger` de Powertools, la sanitización de datos sensibles y el decorador transversal `@trace_call` para observabilidad y trazabilidad de inputs, outputs y duración sin alterar contratos.
 
 ---
 

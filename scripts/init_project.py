@@ -305,8 +305,8 @@ def main() -> None:
 
     # 4. Código fuente
     replace_in_file(
-        root_dir / "src" / "app" / "main.py",
-        [('service="turso-api-service"', f'service="{project_slug}-service"')],
+        root_dir / "src" / "app" / "core" / "logging.py",
+        [('"turso-api-service"', f'"{project_slug}-service"')],
         args.dry_run,
     )
     replace_in_file(

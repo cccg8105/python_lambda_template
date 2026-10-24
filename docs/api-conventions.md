@@ -97,4 +97,14 @@ Powertools serializa automáticamente estas excepciones en respuestas estándar:
 CORS está configurado a nivel de infraestructura en [template.yaml](file:///c:/Users/cesar/repos/python_lambda_template/template.yaml):
 - **Orígenes permitidos:** `*` (o restringir según dominio frontend en producción).
 - **Métodos permitidos:** `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`.
-- **Cabeceras permitidas:** `Content-Type`, `Authorization`.
+- **Cabeceras permitidas:** `Content-Type`, `Authorization`, `X-Correlation-Id`.
+
+---
+
+## 🔍 Trazabilidad y Correlación (`X-Correlation-Id`)
+
+Cada solicitud que procesa la API genera un identificador único **UUIDv4** para trazabilidad de extremo a extremo:
+
+- **Cabecera de respuesta:** Toda respuesta HTTP incluye la cabecera `X-Correlation-Id`.
+- **Logs estructurados:** El identificador se adjunta automáticamente a todos los eventos emitidos por el Logger de Powertools durante el ciclo de vida de la petición.
+- **Soporte y diagnóstico:** Si un cliente o consumidor experimenta un fallo, el valor de `X-Correlation-Id` permite filtrar y ubicar en segundos la traza completa de la petición en AWS CloudWatch Logs Insights.

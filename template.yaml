@@ -60,6 +60,7 @@ Resources:
         AllowHeaders:
           - Content-Type
           - Authorization
+          - X-Correlation-Id
         AllowOrigins:
           - '*'
 

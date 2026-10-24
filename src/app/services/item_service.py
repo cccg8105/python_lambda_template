@@ -2,9 +2,8 @@
 
 import uuid
 
-from aws_lambda_powertools import Logger
-
 from app.core.exceptions import ItemNotFoundError
+from app.core.logging import logger, trace_call
 from app.repositories.base import ItemRepositoryProtocol
 from app.repositories.item_repository import ItemRepository
 from app.schemas.item import (
@@ -14,8 +13,6 @@ from app.schemas.item import (
     ItemUpdateRequest,
 )
 
-logger = Logger(child=True)
-
 
 class ItemService:
     """Orquesta las reglas de negocio para los items."""
@@ -23,6 +20,7 @@ class ItemService:
     def __init__(self, repository: ItemRepositoryProtocol | None = None):
         self.repository: ItemRepositoryProtocol = repository or ItemRepository()
 
+    @trace_call
     def create_item(self, dto: ItemCreateRequest) -> ItemResponse:
         """Crea un nuevo item asignándole un UUID único."""
         item_id = str(uuid.uuid4())
@@ -36,6 +34,7 @@ class ItemService:
             description=dto.description.strip() if dto.description else None,
         )
 
+    @trace_call
     def get_item(self, item_id: str) -> ItemResponse:
         """Obtiene un item por ID o eleva ItemNotFoundError."""
         item = self.repository.find_by_id(item_id)
@@ -43,11 +42,13 @@ class ItemService:
             raise ItemNotFoundError(f"Item con id '{item_id}' no encontrado.")
         return item
 
+    @trace_call
     def list_items(self, limit: int = 50, offset: int = 0) -> ItemListResponse:
         """Obtiene una lista de items paginada."""
         items = self.repository.find_all(limit=limit, offset=offset)
         return ItemListResponse(items=items, total=len(items))
 
+    @trace_call
     def update_item(self, item_id: str, dto: ItemUpdateRequest) -> ItemResponse:
         """Actualiza un item existente o eleva ItemNotFoundError."""
         cleaned_name = dto.name.strip() if dto.name is not None else None
@@ -63,6 +64,7 @@ class ItemService:
             raise ItemNotFoundError(f"No se pudo actualizar: item '{item_id}' no encontrado.")
         return updated
 
+    @trace_call
     def delete_item(self, item_id: str) -> None:
         """Elimina un item por su ID o eleva ItemNotFoundError."""
         deleted = self.repository.delete(item_id)
