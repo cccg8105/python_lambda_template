@@ -1,0 +1,254 @@
+{
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\pyproject.toml": {
+    "mtime": 1792800836.4167802,
+    "seen": 1792804982.9321089,
+    "ast_hash": "ea5d35e77c5ac1342493dec7086e2ba4",
+    "semantic_hash": "ea5d35e77c5ac1342493dec7086e2ba4"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\__init__.py": {
+    "mtime": 1792800509.1632814,
+    "seen": 1792804982.9321156,
+    "ast_hash": "7b56d2c220ca26a4bba025eeaff13578",
+    "semantic_hash": "7b56d2c220ca26a4bba025eeaff13578"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\__init__.py": {
+    "mtime": 1792800625.9139943,
+    "seen": 1792804982.9321182,
+    "ast_hash": "5d22dda47fd8c2bf5c5f99d20963d1c7",
+    "semantic_hash": "5d22dda47fd8c2bf5c5f99d20963d1c7"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\router.py": {
+    "mtime": 1792800638.5894551,
+    "seen": 1792804982.9321196,
+    "ast_hash": "201b84a5c1b1366066ab574f0670a175",
+    "semantic_hash": "201b84a5c1b1366066ab574f0670a175"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\__init__.py": {
+    "mtime": 1792800631.5885048,
+    "seen": 1792804982.932121,
+    "ast_hash": "a9d87205becd277d894a70a9b1a1d95e",
+    "semantic_hash": "a9d87205becd277d894a70a9b1a1d95e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\health.py": {
+    "mtime": 1792801129.613284,
+    "seen": 1792804982.9321225,
+    "ast_hash": "e19f45d290eb9ff3290018acb8311cd5",
+    "semantic_hash": "e19f45d290eb9ff3290018acb8311cd5"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\items.py": {
+    "mtime": 1792800996.4164808,
+    "seen": 1792804982.9321237,
+    "ast_hash": "54f296f520fd3adddc701801a4ded1c0",
+    "semantic_hash": "54f296f520fd3adddc701801a4ded1c0"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\__init__.py": {
+    "mtime": 1792800515.5417974,
+    "seen": 1792804982.9321246,
+    "ast_hash": "b83b0c9ee88b17a675ead558eefbf85f",
+    "semantic_hash": "b83b0c9ee88b17a675ead558eefbf85f"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\config.py": {
+    "mtime": 1792801129.9893126,
+    "seen": 1792804982.9321258,
+    "ast_hash": "71bca2564c0e2781e332d675a9ed8fbc",
+    "semantic_hash": "71bca2564c0e2781e332d675a9ed8fbc"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\database.py": {
+    "mtime": 1792801261.345392,
+    "seen": 1792804982.9321268,
+    "ast_hash": "9270bf874ecd0f55433a4af831f50833",
+    "semantic_hash": "9270bf874ecd0f55433a4af831f50833"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\exceptions.py": {
+    "mtime": 1792800522.4252222,
+    "seen": 1792804982.9321277,
+    "ast_hash": "8302516e20ae6f5efcbac25b3ad46bfc",
+    "semantic_hash": "8302516e20ae6f5efcbac25b3ad46bfc"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\main.py": {
+    "mtime": 1792801129.6605322,
+    "seen": 1792804982.932129,
+    "ast_hash": "9e059c4610a6ba64aaec02155178a5d8",
+    "semantic_hash": "9e059c4610a6ba64aaec02155178a5d8"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\__init__.py": {
+    "mtime": 1792800579.63276,
+    "seen": 1792804982.9321303,
+    "ast_hash": "b14d40662eff1a99fbe53a91deda48ee",
+    "semantic_hash": "b14d40662eff1a99fbe53a91deda48ee"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\base.py": {
+    "mtime": 1792801129.6106832,
+    "seen": 1792804982.9321313,
+    "ast_hash": "09346423f6c33c5cec7756b70cfc872b",
+    "semantic_hash": "09346423f6c33c5cec7756b70cfc872b"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\item_repository.py": {
+    "mtime": 1792801129.6307998,
+    "seen": 1792804982.9321327,
+    "ast_hash": "f3f5d16ee7b9da0e189d6fabc8d0422d",
+    "semantic_hash": "f3f5d16ee7b9da0e189d6fabc8d0422d"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\schemas\\__init__.py": {
+    "mtime": 1792800565.6105533,
+    "seen": 1792804982.9321337,
+    "ast_hash": "4a789067076f003ea8a56a5a4f1c7edf",
+    "semantic_hash": "4a789067076f003ea8a56a5a4f1c7edf"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\schemas\\item.py": {
+    "mtime": 1792801129.9841225,
+    "seen": 1792804982.9321349,
+    "ast_hash": "00134ccf370759287376aba857c8bc5d",
+    "semantic_hash": "00134ccf370759287376aba857c8bc5d"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\services\\__init__.py": {
+    "mtime": 1792800608.721129,
+    "seen": 1792804982.9321358,
+    "ast_hash": "f40af8887f994238c14dcf79ba177c76",
+    "semantic_hash": "f40af8887f994238c14dcf79ba177c76"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\services\\item_service.py": {
+    "mtime": 1792801129.6422338,
+    "seen": 1792804982.932137,
+    "ast_hash": "0b8c9d9ff38fbce9a6ec32d250327e7e",
+    "semantic_hash": "0b8c9d9ff38fbce9a6ec32d250327e7e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\__init__.py": {
+    "mtime": 1792800670.5776064,
+    "seen": 1792804982.932138,
+    "ast_hash": "52f799e2ef2b4cb2a00a3b69f59ffc0c",
+    "semantic_hash": "52f799e2ef2b4cb2a00a3b69f59ffc0c"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\conftest.py": {
+    "mtime": 1792801129.6185968,
+    "seen": 1792804982.9321392,
+    "ast_hash": "6ee50545fd0ceeccd27f2ff8b2405d3d",
+    "semantic_hash": "6ee50545fd0ceeccd27f2ff8b2405d3d"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\integration\\__init__.py": {
+    "mtime": 1792800692.6610644,
+    "seen": 1792804982.9321404,
+    "ast_hash": "da90a097a6d8de5a8f6de8fc5603521d",
+    "semantic_hash": "da90a097a6d8de5a8f6de8fc5603521d"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\integration\\test_routes.py": {
+    "mtime": 1792801129.6505435,
+    "seen": 1792804982.932142,
+    "ast_hash": "dd7b810e4d0478e8b93605eef56a34cb",
+    "semantic_hash": "dd7b810e4d0478e8b93605eef56a34cb"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\__init__.py": {
+    "mtime": 1792800686.468191,
+    "seen": 1792804982.9321432,
+    "ast_hash": "67c645efa9bdf404070290a4dd61706e",
+    "semantic_hash": "67c645efa9bdf404070290a4dd61706e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\test_repositories.py": {
+    "mtime": 1792801129.6358647,
+    "seen": 1792804982.9321442,
+    "ast_hash": "c030f66fcf9074da1757a31938828255",
+    "semantic_hash": "c030f66fcf9074da1757a31938828255"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\test_services.py": {
+    "mtime": 1792801149.6362944,
+    "seen": 1792804982.9321454,
+    "ast_hash": "75b5a4694998b622953cc5e30158ef9a",
+    "semantic_hash": "75b5a4694998b622953cc5e30158ef9a"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\CHANGELOG.md": {
+    "mtime": 1792803770.5815065,
+    "seen": 1792804982.9321465,
+    "ast_hash": "e955dfee9ce128e8560d0cd30b93461a",
+    "semantic_hash": "e955dfee9ce128e8560d0cd30b93461a"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\README.md": {
+    "mtime": 1792803787.5077589,
+    "seen": 1792804982.9321475,
+    "ast_hash": "2914bb38462c85d73408a3ed08952398",
+    "semantic_hash": "2914bb38462c85d73408a3ed08952398"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\README.md": {
+    "mtime": 1792803759.5656505,
+    "seen": 1792804982.9321487,
+    "ast_hash": "71167e4c8f7f107a8c8615b62a1b087a",
+    "semantic_hash": "71167e4c8f7f107a8c8615b62a1b087a"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\TEMPLATE.md": {
+    "mtime": 1792803696.5211177,
+    "seen": 1792804982.9321496,
+    "ast_hash": "35418a4cfe1130dc107b1c8308ad41e7",
+    "semantic_hash": "35418a4cfe1130dc107b1c8308ad41e7"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\VERSIONING.md": {
+    "mtime": 1792803681.5490322,
+    "seen": 1792804982.9321508,
+    "ast_hash": "f5e5c3f800f311d48bb887c033852566",
+    "semantic_hash": "f5e5c3f800f311d48bb887c033852566"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\completed\\FEAT-000-plantilla-base.md": {
+    "mtime": 1792803736.2216263,
+    "seen": 1792804982.9321518,
+    "ast_hash": "eef278d12c947775950e3467bb8596ac",
+    "semantic_hash": "eef278d12c947775950e3467bb8596ac"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\completed\\README.md": {
+    "mtime": 1792803747.0658803,
+    "seen": 1792804982.932153,
+    "ast_hash": "d95dcff3667142b4efe953b7f1bcc103",
+    "semantic_hash": "d95dcff3667142b4efe953b7f1bcc103"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\pending\\FEAT-001-usuarios-crud.md": {
+    "mtime": 1792803713.1497686,
+    "seen": 1792804982.9321542,
+    "ast_hash": "a869042317659f7c5981c3b442c1dda1",
+    "semantic_hash": "a869042317659f7c5981c3b442c1dda1"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\backlog\\pending\\README.md": {
+    "mtime": 1792803723.518834,
+    "seen": 1792804982.9321551,
+    "ast_hash": "787bed6a078706e91a2279e3d6d65f7e",
+    "semantic_hash": "787bed6a078706e91a2279e3d6d65f7e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\README.md": {
+    "mtime": 1792801712.9256883,
+    "seen": 1792804982.932156,
+    "ast_hash": "5d3d8110030d5161f24d791e7e857a05",
+    "semantic_hash": "5d3d8110030d5161f24d791e7e857a05"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\api-conventions.md": {
+    "mtime": 1792801795.1643236,
+    "seen": 1792804982.9321573,
+    "ast_hash": "75960f3fae346f432a0459e32f21ceed",
+    "semantic_hash": "75960f3fae346f432a0459e32f21ceed"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\architecture.md": {
+    "mtime": 1792801736.3156302,
+    "seen": 1792804982.9321582,
+    "ast_hash": "3a2b00be4a52920337e3830828e25c09",
+    "semantic_hash": "3a2b00be4a52920337e3830828e25c09"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\database-turso.md": {
+    "mtime": 1792801779.950412,
+    "seen": 1792804982.9321594,
+    "ast_hash": "e1b982b92487df8c3e4b768e8b0b2a8e",
+    "semantic_hash": "e1b982b92487df8c3e4b768e8b0b2a8e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\development-guide.md": {
+    "mtime": 1792801759.388974,
+    "seen": 1792804982.9321609,
+    "ast_hash": "ff3f20de2489098a2d8dd84eef45fe10",
+    "semantic_hash": "ff3f20de2489098a2d8dd84eef45fe10"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\docs\\testing-guide.md": {
+    "mtime": 1792801811.2110367,
+    "seen": 1792804982.932162,
+    "ast_hash": "b2c23bb243e550a87236f73b22099c2e",
+    "semantic_hash": "b2c23bb243e550a87236f73b22099c2e"
+  },
+  "C:\\Users\\cesar\\repos\\python_lambda_template\\template.yaml": {
+    "mtime": 1792800500.1472635,
+    "seen": 1792804982.9321632,
+    "ast_hash": "b1e4be055d88656a193ced6685c8340b",
+    "semantic_hash": "b1e4be055d88656a193ced6685c8340b"
+  }
+}
