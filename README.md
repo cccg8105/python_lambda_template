@@ -107,7 +107,7 @@ uv run pytest -v
 
 ---
 
-## ☁️ Pruebas Locales y Despliegue con AWS SAM
+## ☁️ Pruebas Locales y Despliegue Multambiente con AWS SAM
 
 1. **Validar la plantilla SAM:**
    ```bash
@@ -119,11 +119,30 @@ uv run pytest -v
    sam local start-api --env-vars env.json
    ```
 
-3. **Construir y desplegar a AWS:**
-   ```bash
-   sam build
-   sam deploy --guided
-   ```
+3. **Despliegue Semiautomático (Local / CI):**
+   El proyecto cuenta con validación previa de calidad (Ruff + Pytest + SAM Validate) antes del empaquetado y despliegue a CloudFormation:
+
+   - **Windows (PowerShell):**
+     ```powershell
+     .\deploy.ps1 dev     # Despliega a turso-api-dev
+     .\deploy.ps1 prod    # Despliega a turso-api-prod
+     ```
+
+   - **Cross-platform (Python):**
+     ```bash
+     uv run python scripts/deploy.py --env dev
+     uv run python scripts/deploy.py --env prod
+     ```
+
+   - **Simulación (Dry Run sin desplegar a AWS):**
+     ```bash
+     uv run python scripts/deploy.py --env dev --dry-run
+     ```
+
+   - **GitHub Actions (Despliegue Continuo / Manual):**
+     Disponible vía `workflow_dispatch` en la pestaña *Actions* de GitHub para desplegar a demanda a `dev` o `prod`.
+
+Para instrucciones detalladas de configuración de secretos en AWS Secrets Manager y GitHub Secrets, consulta la [Guía de Despliegue](file:///docs/deployment.md).
 
 ---
 

@@ -15,6 +15,7 @@ Esta carpeta contiene las guías de diseño, arquitectura, persistencia y lineam
 | **[database-turso.md](database-turso.md)** | Funcionamiento del cliente `turso-serverless`, SQL sobre HTTPS, ciclo de vida en AWS Lambda (*warm starts* vs *cold starts*) y buenas prácticas de consultas. | Consultas de base de datos, DDL y persistencia. |
 | **[api-conventions.md](api-conventions.md)** | Convenciones de API Gateway HTTP API v2, códigos de estado HTTP, validación con Pydantic v2 y manejo de excepciones. | Diseño de contratos, endpoints y respuestas JSON. |
 | **[testing-guide.md](testing-guide.md)** | Estrategia de testing, mocking de capas, emulación de eventos de API Gateway v2 y ejecución con `pytest`. | Escribir pruebas unitarias e integrales para nuevo código. |
+| **[deployment.md](deployment.md)** | Guía de despliegue semiautomático multi-ambiente (`dev`, `prod`), CLI y GitHub Actions. | Desplegar infraestructura y APIs a AWS. |
 | **[GEMINI.md](../GEMINI.md)** | Directrices y reglas maestras de Antigravity (cargadas automáticamente en `.agents/rules/`). | Asistentes IA y desarrolladores para mantener la integridad del código. |
 
 ---

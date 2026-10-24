@@ -1,0 +1,63 @@
+name: Despliegue Semiautomático (AWS SAM)
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Ambiente objetivo de despliegue"
+        required: true
+        default: "dev"
+        type: choice
+        options:
+          - dev
+          - prod
+      skip_tests:
+        description: "Omitir suite de pruebas previas (no recomendado)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Desplegar a AWS (${{ inputs.environment }})
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+
+      - name: Configurar AWS SAM CLI
+        uses: aws-actions/setup-sam@v2
+        with:
+          use-installer: true
+
+      - name: Autenticar en AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION || 'us-east-1' }}
+
+      - name: Sincronizar dependencias
+        run: uv sync
+
+      - name: Ejecutar script de despliegue
+        run: |
+          DEPLOY_ARGS="--env ${{ inputs.environment }}"
+          if [ "${{ inputs.skip_tests }}" = "true" ]; then
+            DEPLOY_ARGS="$DEPLOY_ARGS --skip-tests"
+          fi
+          uv run python scripts/deploy.py $DEPLOY_ARGS

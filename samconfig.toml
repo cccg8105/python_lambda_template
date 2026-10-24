@@ -1,0 +1,16 @@
+version = 0.1
+
+[default.deploy.parameters]
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = false
+resolve_s3 = true
+
+[dev.deploy.parameters]
+stack_name = "turso-api-dev"
+parameter_overrides = "Environment=\"dev\" LogLevel=\"DEBUG\" TursoSecretName=\"dev/turso/credentials\""
+tags = "Environment=\"dev\" Project=\"python_lambda_template\""
+
+[prod.deploy.parameters]
+stack_name = "turso-api-prod"
+parameter_overrides = "Environment=\"prod\" LogLevel=\"INFO\" TursoSecretName=\"prod/turso/credentials\""
+tags = "Environment=\"prod\" Project=\"python_lambda_template\""
