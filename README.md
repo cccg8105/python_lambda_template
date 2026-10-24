@@ -73,6 +73,16 @@ El repositorio incluye directrices para que los asistentes de IA mantengan la co
 - [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)
 - Python 3.13 (fijado automáticamente por `.python-version`)
 
+## 🚀 Inicialización para un Nuevo Proyecto (Uso como Plantilla)
+
+Si acabas de clonar este repositorio o crearlo mediante **"Use this template"** en GitHub para desarrollar un nuevo microservicio:
+
+```bash
+uv run python scripts/init_project.py
+```
+
+El script interactivo solicitará el nombre y descripción del nuevo servicio, actualizará de manera global la configuración de empaquetado (`pyproject.toml`), nombres de stacks de AWS SAM (`template.yaml` y `samconfig.toml`), nombres de servicios en logs y pruebas, limpiará los ejemplos del backlog y opcionalmente reinicializará un repositorio Git con un commit inicial limpio.
+
 ---
 
 ## 🛠️ Instalación y Configuración Local
@@ -107,7 +117,7 @@ uv run pytest -v
 
 ---
 
-## ☁️ Pruebas Locales y Despliegue con AWS SAM
+## ☁️ Pruebas Locales y Despliegue Multambiente con AWS SAM
 
 1. **Validar la plantilla SAM:**
    ```bash
@@ -119,11 +129,30 @@ uv run pytest -v
    sam local start-api --env-vars env.json
    ```
 
-3. **Construir y desplegar a AWS:**
-   ```bash
-   sam build
-   sam deploy --guided
-   ```
+3. **Despliegue Semiautomático (Local / CI):**
+   El proyecto cuenta con validación previa de calidad (Ruff + Pytest + SAM Validate) antes del empaquetado y despliegue a CloudFormation:
+
+   - **Windows (PowerShell):**
+     ```powershell
+     .\deploy.ps1 dev     # Despliega a turso-api-dev
+     .\deploy.ps1 prod    # Despliega a turso-api-prod
+     ```
+
+   - **Cross-platform (Python):**
+     ```bash
+     uv run python scripts/deploy.py --env dev
+     uv run python scripts/deploy.py --env prod
+     ```
+
+   - **Simulación (Dry Run sin desplegar a AWS):**
+     ```bash
+     uv run python scripts/deploy.py --env dev --dry-run
+     ```
+
+   - **GitHub Actions (Despliegue Continuo / Manual):**
+     Disponible vía `workflow_dispatch` en la pestaña *Actions* de GitHub para desplegar a demanda a `dev` o `prod`.
+
+Para instrucciones detalladas de configuración de secretos en AWS Secrets Manager y GitHub Secrets, consulta la [Guía de Despliegue](file:///docs/deployment.md).
 
 ---
 

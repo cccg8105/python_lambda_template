@@ -4,6 +4,29 @@ Description: >
   Plantilla AWS SAM para Lambda en Python 3.13 desacoplada
   con API Gateway HTTP API (v2) y base de datos Turso Serverless.
 
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - staging
+      - prod
+    Description: Entorno de despliegue (dev, staging, prod)
+  LogLevel:
+    Type: String
+    Default: INFO
+    AllowedValues:
+      - DEBUG
+      - INFO
+      - WARNING
+      - ERROR
+    Description: Nivel de logging para Powertools
+  TursoSecretName:
+    Type: String
+    Default: dev/turso/credentials
+    Description: Nombre del secreto en AWS Secrets Manager para Turso
+
 Globals:
   Function:
     Timeout: 15
@@ -13,9 +36,14 @@ Globals:
       - arm64
     Environment:
       Variables:
-        POWERTOOLS_SERVICE_NAME: turso-api-service
-        LOG_LEVEL: INFO
-        TURSO_SECRET_NAME: prod/turso/credentials
+        POWERTOOLS_SERVICE_NAME: !Sub "turso-api-${Environment}"
+        ENVIRONMENT: !Ref Environment
+        LOG_LEVEL: !Ref LogLevel
+        TURSO_SECRET_NAME: !Ref TursoSecretName
+    Tags:
+      Environment: !Ref Environment
+      Project: python_lambda_template
+      ManagedBy: AWS-SAM
 
 Resources:
   HttpApi:
@@ -40,10 +68,10 @@ Resources:
     Properties:
       CodeUri: src/
       Handler: app.main.lambda_handler
-      Description: API Serverless conectada a Turso con arquitectura en capas
+      Description: !Sub "API Serverless conectada a Turso (${Environment})"
       Policies:
         - AWSSecretsManagerGetSecretValuePolicy:
-            SecretArn: !Sub "arn:aws:secretsmanager:${AWS::Region}:${AWS::AccountId}:secret:prod/turso/credentials*"
+            SecretArn: !Sub "arn:aws:secretsmanager:${AWS::Region}:${AWS::AccountId}:secret:${TursoSecretName}*"
       Events:
         ProxyRoute:
           Type: HttpApi
@@ -65,3 +93,6 @@ Outputs:
   TursoApiFunctionArn:
     Description: ARN de la función Lambda
     Value: !GetAtt TursoApiFunction.Arn
+  EnvironmentDeployed:
+    Description: Entorno desplegado
+    Value: !Ref Environment

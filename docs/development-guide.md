@@ -19,6 +19,18 @@ Para este tutorial, crearemos el recurso **`User`** (`/users`), cubriendo desde 
 
 ---
 
+## Paso Previo: Inicializar un Nuevo Servicio a partir de la Plantilla
+
+Si acabas de clonar el repositorio para crear un nuevo microservicio, personaliza el proyecto ejecutando el script interactivo:
+
+```bash
+uv run python scripts/init_project.py
+```
+
+Este script reemplaza el nombre y descripción en `pyproject.toml`, `template.yaml`, `samconfig.toml`, código fuente, pruebas, limpia los ejemplos del backlog y sincroniza las dependencias con `uv`.
+
+---
+
 ## Paso 0: Crear la rama del feature en Git
 
 Antes de escribir cualquier línea de código, sitúate en `main` actualizado y crea una nueva rama de corta duración con el identificador del requerimiento:
