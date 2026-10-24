@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environments & Local files
+.env
+.venv/
+
+# AWS SAM
+.aws-sam/

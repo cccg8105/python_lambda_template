@@ -1,0 +1,55 @@
+# ==============================================================================
+# .graphifyignore - Archivos y directorios a omitir del grafo de conocimiento
+# ==============================================================================
+
+# Salida del propio Graphify
+graphify-out/
+
+# Control de versiones
+.git/
+.gitignore
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Artefactos de AWS SAM y compilación
+.aws-sam/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Caches y bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches de linters y pruebas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Archivos de credenciales y entornos locales
+.env
+.env.*
+!.env.example
+
+# Archivos de configuración de IA y metadatos del IDE
+.gemini/
+.geminiignore
+.vscode/
+.idea/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+tempCodeRunnerFile.py

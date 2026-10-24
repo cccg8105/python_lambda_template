@@ -1,0 +1,5141 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_python_lambda_turso_template",
+      "label": "python-lambda-turso-template",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "version": "0.1.0",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_init_rationale_1",
+      "label": "Paquete principal de la aplicación Lambda.",
+      "file_type": "rationale",
+      "source_file": "src/app/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/api/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_init_rationale_1",
+      "label": "Capa de enrutamiento y adaptadores HTTP para API Gateway.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_router",
+      "label": "router.py",
+      "file_type": "code",
+      "source_file": "src/app/api/router.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_router_rationale_1",
+      "label": "Instancia principal del enrutador HTTP de Powertools para API Gateway v2.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/router.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_init_rationale_1",
+      "label": "Submódulo de definición de rutas.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health",
+      "label": "health.py",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_py_get",
+      "label": "get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_health_check",
+      "label": "health_check()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_py_post",
+      "label": "post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_initialize_database",
+      "label": "initialize_database()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_rationale_1",
+      "label": "Rutas para verificación de salud y utilidades del sistema.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_rationale_16",
+      "label": "Endpoint de comprobación de salud para monitoreo.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_health_rationale_26",
+      "label": "Endpoint de utilidad para crear las tablas necesarias en Turso si aún no…",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items",
+      "label": "items.py",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_py_post",
+      "label": "post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_create_item",
+      "label": "create_item()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_py_get",
+      "label": "get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_list_items",
+      "label": "list_items()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_get_item",
+      "label": "get_item()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L54",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "put",
+      "label": "put",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_update_item",
+      "label": "update_item()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "delete",
+      "label": "delete",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_delete_item",
+      "label": "delete_item()",
+      "file_type": "code",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L83",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_1",
+      "label": "Controladores HTTP para la gestión de Items.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_21",
+      "label": "Crea un nuevo item a partir del payload JSON.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_41",
+      "label": "Lista items existentes con paginación opcional.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_55",
+      "label": "Obtiene el detalle de un item por su ID.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L55",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_65",
+      "label": "Actualiza un item existente.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_api_routes_items_rationale_84",
+      "label": "Elimina un item por su ID.",
+      "file_type": "rationale",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L84",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/core/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_init_rationale_1",
+      "label": "Módulo core para infraestructura, configuración y base de datos.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_config",
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_config_get_turso_credentials",
+      "label": "get_turso_credentials()",
+      "file_type": "code",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_config_rationale_1",
+      "label": "Gestión de configuración y credenciales para Turso.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_config_rationale_15",
+      "label": "Obtiene la URL y el Token de autenticación de Turso. Prioridad: 1. Variables de…",
+      "file_type": "rationale",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database",
+      "label": "database.py",
+      "file_type": "code",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_get_turso_connection",
+      "label": "get_turso_connection()",
+      "file_type": "code",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_set_turso_connection",
+      "label": "set_turso_connection()",
+      "file_type": "code",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L32",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_reset_turso_connection",
+      "label": "reset_turso_connection()",
+      "file_type": "code",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_rationale_1",
+      "label": "Gestión de conexión y ciclo de vida del cliente Turso Serverless.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_rationale_16",
+      "label": "Retorna una conexión activa a Turso Serverless (reutilizada en warm starts).…",
+      "file_type": "rationale",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_rationale_33",
+      "label": "Permite inyectar una conexión personalizada (útil para pruebas unitarias).",
+      "file_type": "rationale",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_database_rationale_39",
+      "label": "Cierra y reinicia la conexión global.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions",
+      "label": "exceptions.py",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_appexception",
+      "label": "AppException",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_appexception_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_itemnotfounderror",
+      "label": "ItemNotFoundError",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_itemalreadyexistserror",
+      "label": "ItemAlreadyExistsError",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_databaseconnectionerror",
+      "label": "DatabaseConnectionError",
+      "file_type": "code",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_rationale_1",
+      "label": "Excepciones de dominio y de infraestructura de la aplicación.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_rationale_5",
+      "label": "Excepción base de la aplicación.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_rationale_13",
+      "label": "Lanzada cuando un recurso no se encuentra en el repositorio.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_rationale_17",
+      "label": "Lanzada cuando se intenta crear un recurso con clave duplicada.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_core_exceptions_rationale_21",
+      "label": "Lanzada ante fallos de conexión o configuración con Turso.",
+      "file_type": "rationale",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_main",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "src/app/main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "inject_lambda_context",
+      "label": "inject_lambda_context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_main_lambda_handler",
+      "label": "lambda_handler()",
+      "file_type": "code",
+      "source_file": "src/app/main.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "lambdacontext",
+      "label": "LambdaContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_main_rationale_1",
+      "label": "Punto de entrada principal (Handler) para AWS Lambda.",
+      "file_type": "rationale",
+      "source_file": "src/app/main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_main_rationale_16",
+      "label": "Manejador principal de eventos HTTP invocados desde API Gateway HTTP API v2.",
+      "file_type": "rationale",
+      "source_file": "src/app/main.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/repositories/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_init_rationale_1",
+      "label": "Capa de repositorios y acceso a datos.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base",
+      "label": "base.py",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol",
+      "label": "ItemRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_init_table",
+      "label": ".init_table()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_save",
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "label": ".find_by_id()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "label": ".find_all()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_update",
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol_delete",
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L44",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_1",
+      "label": "Protocolos e interfaces de persistencia.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_9",
+      "label": "Contrato que define los métodos que debe implementar cualquier repositorio de…",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_12",
+      "label": "Inicializa la tabla en la base de datos si no existe.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_23",
+      "label": "Guarda un nuevo item.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_27",
+      "label": "Busca un item por su ID.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_31",
+      "label": "Obtiene una lista de items.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_41",
+      "label": "Actualiza un item existente.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_base_rationale_45",
+      "label": "Elimina un item por su ID.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository",
+      "label": "item_repository.py",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository",
+      "label": "ItemRepository",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_init_table",
+      "label": ".init_table()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_save",
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "label": ".find_by_id()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_find_all",
+      "label": ".find_all()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L83",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_update",
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L107",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository_delete",
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L141",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_1",
+      "label": "Implementación del repositorio de Items utilizando turso_serverless.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_15",
+      "label": "Repositorio de persistencia que ejecuta SQL parametrizado sobre Turso.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_21",
+      "label": "Crea la tabla 'items' en Turso si aún no existe.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_45",
+      "label": "Inserta un nuevo item en Turso y retorna su DTO.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_67",
+      "label": "Obtiene un item por ID o None si no existe.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_84",
+      "label": "Retorna una lista de items ordenada por fecha descendente.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L84",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_114",
+      "label": "Actualiza campos de un item existente.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L114",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_repositories_item_repository_rationale_142",
+      "label": "Elimina un item y devuelve True si fue eliminado.",
+      "file_type": "rationale",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/schemas/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_init_rationale_1",
+      "label": "Paquete de esquemas de datos y DTOs (Pydantic v2).",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item",
+      "label": "item.py",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_itembase",
+      "label": "ItemBase",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_itemcreaterequest",
+      "label": "ItemCreateRequest",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_itemupdaterequest",
+      "label": "ItemUpdateRequest",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_itemresponse",
+      "label": "ItemResponse",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_itemlistresponse",
+      "label": "ItemListResponse",
+      "file_type": "code",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_1",
+      "label": "Modelos y contratos de datos para la entidad Item.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_7",
+      "label": "Atributos comunes de un item.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_17",
+      "label": "Payload para creación de un item.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_21",
+      "label": "Payload para actualización parcial de un item.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_29",
+      "label": "DTO de respuesta con el item completo.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_schemas_item_rationale_38",
+      "label": "DTO para listados paginados de items.",
+      "file_type": "rationale",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/app/services/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_init_rationale_1",
+      "label": "Capa de servicios y lógica de negocio.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service",
+      "label": "item_service.py",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice",
+      "label": "ItemService",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_create_item",
+      "label": ".create_item()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_get_item",
+      "label": ".get_item()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L39",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_list_items",
+      "label": ".list_items()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_update_item",
+      "label": ".update_item()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L51",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_itemservice_delete_item",
+      "label": ".delete_item()",
+      "file_type": "code",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_1",
+      "label": "Servicio de lógica de negocio para Items.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_21",
+      "label": "Orquesta las reglas de negocio para los items.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_27",
+      "label": "Crea un nuevo item asignándole un UUID único.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_40",
+      "label": "Obtiene un item por ID o eleva ItemNotFoundError.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L40",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_47",
+      "label": "Obtiene una lista de items paginada.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_52",
+      "label": "Actualiza un item existente o eleva ItemNotFoundError.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_services_item_service_rationale_67",
+      "label": "Elimina un item por su ID o eleva ItemNotFoundError.",
+      "file_type": "rationale",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest",
+      "label": "conftest.py",
+      "file_type": "code",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_py_fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_setup_test_environment",
+      "label": "setup_test_environment()",
+      "file_type": "code",
+      "source_file": "tests/conftest.py",
+      "source_location": "L9",
+      "_py_fixture": "?",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_lambdacontextmock",
+      "label": "LambdaContextMock",
+      "file_type": "code",
+      "source_file": "tests/conftest.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_lambda_context",
+      "label": "lambda_context()",
+      "file_type": "code",
+      "source_file": "tests/conftest.py",
+      "source_location": "L30",
+      "_py_fixture": "LambdaContextMock",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_rationale_1",
+      "label": "Configuración y fixtures compartidas para pruebas.",
+      "file_type": "rationale",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_rationale_10",
+      "label": "Establece variables de entorno seguras para pruebas unitarias.",
+      "file_type": "rationale",
+      "source_file": "tests/conftest.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_rationale_21",
+      "label": "Mock del contexto de ejecución de AWS Lambda.",
+      "file_type": "rationale",
+      "source_file": "tests/conftest.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_conftest_rationale_31",
+      "label": "Fixture que provee un contexto mock de Lambda.",
+      "file_type": "rationale",
+      "source_file": "tests/conftest.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/integration/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_init_rationale_1",
+      "label": "Pruebas de integración.",
+      "file_type": "rationale",
+      "source_file": "tests/integration/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes",
+      "label": "test_routes.py",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_build_apigw_v2_event",
+      "label": "build_apigw_v2_event()",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_test_health_check_route",
+      "label": "test_health_check_route()",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_test_create_item_valid_payload",
+      "label": "test_create_item_valid_payload()",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L60",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_test_create_item_invalid_payload_returns_400",
+      "label": "test_create_item_invalid_payload_returns_400()",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L85",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "label": "test_get_item_not_found_returns_404()",
+      "file_type": "code",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L98",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_rationale_1",
+      "label": "Pruebas de integración de rutas de API Gateway v2 y lambda_handler.",
+      "file_type": "rationale",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_integration_test_routes_rationale_16",
+      "label": "Construye un evento sintético que emula API Gateway HTTP API (Payload Format…",
+      "file_type": "rationale",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/unit/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories",
+      "label": "test_repositories.py",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_create_mock_connection",
+      "label": "create_mock_connection()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "label": "test_init_table_executes_ddl()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_save_inserts_and_commits",
+      "label": "test_save_inserts_and_commits()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "label": "test_find_by_id_returns_item_when_exists()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "label": "test_find_by_id_returns_none_when_not_found()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_find_all_returns_list",
+      "label": "test_find_all_returns_list()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "label": "test_delete_returns_true_when_found()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L93",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_repositories_rationale_1",
+      "label": "Pruebas unitarias para la capa de repositorios.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services",
+      "label": "test_services.py",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_py_fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_mock_repository",
+      "label": "mock_repository()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L13",
+      "_py_fixture": "MagicMock",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_item_service",
+      "label": "item_service()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L18",
+      "_py_fixture": "ItemService",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_create_item_success",
+      "label": "test_create_item_success()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_get_item_found",
+      "label": "test_get_item_found()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "label": "test_get_item_not_found_raises_exception()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_list_items",
+      "label": "test_list_items()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L75",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_update_item_success",
+      "label": "test_update_item_success()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L91",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "label": "test_update_item_not_found_raises_exception()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L108",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_delete_item_success",
+      "label": "test_delete_item_success()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "label": "test_delete_item_not_found_raises_exception()",
+      "file_type": "code",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L129",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_unit_test_services_rationale_1",
+      "label": "Pruebas unitarias para la capa de servicios (lógica de negocio).",
+      "file_type": "rationale",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pkg_python_lambda_turso_template",
+      "target": "pkg_aws_lambda_powertools",
+      "relation": "depends_on",
+      "context": "dependency",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pkg_python_lambda_turso_template",
+      "target": "pkg_pydantic",
+      "relation": "depends_on",
+      "context": "dependency",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "pkg_python_lambda_turso_template",
+      "target": "pkg_turso_serverless",
+      "relation": "depends_on",
+      "context": "dependency",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_init_rationale_1",
+      "target": "src_app_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_init_rationale_1",
+      "target": "src_app_api_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_router",
+      "target": "aws_lambda_powertools_event_handler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/router.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_router_rationale_1",
+      "target": "src_app_api_router",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/router.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_init_rationale_1",
+      "target": "src_app_api_routes_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "src_app_api_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "src_app_repositories_item_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_health_check",
+      "target": "src_app_api_routes_health_py_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_health_check",
+      "target": "src_app_api_routes_health_py_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "src_app_api_routes_health_health_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_initialize_database",
+      "target": "src_app_api_routes_health_py_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "src_app_api_routes_health_initialize_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_rationale_1",
+      "target": "src_app_api_routes_health",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_rationale_16",
+      "target": "src_app_api_routes_health_health_check",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_rationale_26",
+      "target": "src_app_api_routes_health_initialize_database",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "aws_lambda_powertools_event_handler_api_gateway",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "aws_lambda_powertools_event_handler_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_core_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_services_item_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_create_item",
+      "target": "src_app_api_routes_items_py_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_routes_items_create_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_list_items",
+      "target": "src_app_api_routes_items_py_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_routes_items_list_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_get_item",
+      "target": "src_app_api_routes_items_py_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_routes_items_get_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_update_item",
+      "target": "put",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_routes_items_update_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_delete_item",
+      "target": "delete",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_api_routes_items_delete_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_1",
+      "target": "src_app_api_routes_items",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_21",
+      "target": "src_app_api_routes_items_create_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_41",
+      "target": "src_app_api_routes_items_list_items",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_55",
+      "target": "src_app_api_routes_items_get_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_65",
+      "target": "src_app_api_routes_items_update_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_rationale_84",
+      "target": "src_app_api_routes_items_delete_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_init_rationale_1",
+      "target": "src_app_core_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "aws_lambda_powertools_utilities",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "src_app_core_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "src_app_core_config_get_turso_credentials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_rationale_1",
+      "target": "src_app_core_config",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_rationale_15",
+      "target": "src_app_core_config_get_turso_credentials",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "turso_serverless",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "src_app_core_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "src_app_core_database_get_turso_connection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "src_app_core_database_set_turso_connection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_set_turso_connection",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "src_app_core_database_reset_turso_connection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_rationale_1",
+      "target": "src_app_core_database",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_rationale_16",
+      "target": "src_app_core_database_get_turso_connection",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_rationale_33",
+      "target": "src_app_core_database_set_turso_connection",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_rationale_39",
+      "target": "src_app_core_database_reset_turso_connection",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions",
+      "target": "src_app_core_exceptions_appexception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_appexception",
+      "target": "exception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_appexception",
+      "target": "src_app_core_exceptions_appexception_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_itemnotfounderror",
+      "target": "src_app_core_exceptions_appexception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions",
+      "target": "src_app_core_exceptions_itemalreadyexistserror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_itemalreadyexistserror",
+      "target": "src_app_core_exceptions_appexception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions",
+      "target": "src_app_core_exceptions_databaseconnectionerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_databaseconnectionerror",
+      "target": "src_app_core_exceptions_appexception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_rationale_1",
+      "target": "src_app_core_exceptions",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_rationale_5",
+      "target": "src_app_core_exceptions_appexception",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_rationale_13",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_rationale_17",
+      "target": "src_app_core_exceptions_itemalreadyexistserror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_exceptions_rationale_21",
+      "target": "src_app_core_exceptions_databaseconnectionerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/exceptions.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "aws_lambda_powertools_utilities_typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "src_app_api_routes_health",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "src_app_api_routes_items",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "src_app_api_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main_lambda_handler",
+      "target": "inject_lambda_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main",
+      "target": "src_app_main_lambda_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main_lambda_handler",
+      "target": "lambdacontext",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main_rationale_1",
+      "target": "src_app_main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_main_rationale_16",
+      "target": "src_app_main_lambda_handler",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_init_rationale_1",
+      "target": "src_app_repositories_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base",
+      "target": "src_app_repositories_base_itemrepositoryprotocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_init_table",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_save",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol_save",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_update",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol_update",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_delete",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_1",
+      "target": "src_app_repositories_base",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_9",
+      "target": "src_app_repositories_base_itemrepositoryprotocol",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_12",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_init_table",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_23",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_save",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_27",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_31",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_41",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_update",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_rationale_45",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_delete",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "src_app_core_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_init_table",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_save",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_save",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_find_all",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_find_all",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_update",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_update",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_repositories_item_repository_itemrepository_delete",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_update",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository_delete",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_1",
+      "target": "src_app_repositories_item_repository",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_15",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_21",
+      "target": "src_app_repositories_item_repository_itemrepository_init_table",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_45",
+      "target": "src_app_repositories_item_repository_itemrepository_save",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_67",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_84",
+      "target": "src_app_repositories_item_repository_itemrepository_find_all",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_114",
+      "target": "src_app_repositories_item_repository_itemrepository_update",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_rationale_142",
+      "target": "src_app_repositories_item_repository_itemrepository_delete",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_init_rationale_1",
+      "target": "src_app_schemas_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "src_app_schemas_item_itembase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_itembase",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_itemcreaterequest",
+      "target": "src_app_schemas_item_itembase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_itemupdaterequest",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_itemresponse",
+      "target": "src_app_schemas_item_itembase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item",
+      "target": "src_app_schemas_item_itemlistresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_itemlistresponse",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_1",
+      "target": "src_app_schemas_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_7",
+      "target": "src_app_schemas_item_itembase",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_17",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_21",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_29",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_schemas_item_rationale_38",
+      "target": "src_app_schemas_item_itemlistresponse",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/schemas/item.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_init_rationale_1",
+      "target": "src_app_services_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "aws_lambda_powertools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_core_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_repositories_base",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_repositories_item_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_services_item_service_itemservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_init",
+      "target": "src_app_repositories_base_itemrepositoryprotocol",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_create_item",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_create_item",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_create_item",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_get_item",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_get_item",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_list_items",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_list_items",
+      "target": "src_app_schemas_item_itemlistresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_update_item",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_update_item",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_update_item",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_services_item_service_itemservice_delete_item",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_1",
+      "target": "src_app_services_item_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_21",
+      "target": "src_app_services_item_service_itemservice",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_27",
+      "target": "src_app_services_item_service_itemservice_create_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_40",
+      "target": "src_app_services_item_service_itemservice_get_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_47",
+      "target": "src_app_services_item_service_itemservice_list_items",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_52",
+      "target": "src_app_services_item_service_itemservice_update_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_rationale_67",
+      "target": "src_app_services_item_service_itemservice_delete_item",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_setup_test_environment",
+      "target": "tests_conftest_py_fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest",
+      "target": "tests_conftest_setup_test_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest",
+      "target": "tests_conftest_lambdacontextmock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_lambda_context",
+      "target": "tests_conftest_py_fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest",
+      "target": "tests_conftest_lambda_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_lambda_context",
+      "target": "tests_conftest_lambdacontextmock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_rationale_1",
+      "target": "tests_conftest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_rationale_10",
+      "target": "tests_conftest_setup_test_environment",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_rationale_21",
+      "target": "tests_conftest_lambdacontextmock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_conftest_rationale_31",
+      "target": "tests_conftest_lambda_context",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/conftest.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_init_rationale_1",
+      "target": "tests_integration_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "unittest_mock",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "src_app_main",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "tests_integration_test_routes_test_health_check_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "tests_integration_test_routes_test_create_item_valid_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "tests_integration_test_routes_test_create_item_invalid_payload_returns_400",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes",
+      "target": "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_health_check_route",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_valid_payload",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_invalid_payload_returns_400",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_rationale_1",
+      "target": "tests_integration_test_routes",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_rationale_16",
+      "target": "tests_integration_test_routes_build_apigw_v2_event",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "unittest_mock",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "src_app_repositories_item_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_save_inserts_and_commits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_find_all_returns_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories",
+      "target": "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_save_inserts_and_commits",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_all_returns_list",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "target": "tests_unit_test_repositories_create_mock_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_rationale_1",
+      "target": "tests_unit_test_repositories",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "unittest_mock",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "src_app_core_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "src_app_schemas_item",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "src_app_services_item_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_mock_repository",
+      "target": "tests_unit_test_services_py_fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_mock_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_item_service",
+      "target": "tests_unit_test_services_py_fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_item_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_create_item_success",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_get_item_found",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_list_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_update_item_success",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_delete_item_success",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services",
+      "target": "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_rationale_1",
+      "target": "tests_unit_test_services",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items",
+      "target": "src_app_services_item_service_itemservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config",
+      "target": "src_app_core_exceptions_databaseconnectionerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database",
+      "target": "src_app_core_config_get_turso_credentials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "src_app_core_database_get_turso_connection",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_repositories_base_itemrepositoryprotocol",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_schemas_item_itemlistresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_get_turso_credentials",
+      "target": "src_app_core_exceptions_databaseconnectionerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/config.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_database_get_turso_connection",
+      "target": "src_app_core_config_get_turso_credentials",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/core/database.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_initialize_database",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L27",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_get_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L59",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_update_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L78",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_delete_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L88",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_create_item",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L27",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_items_update_item",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": "L71",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_get_turso_credentials",
+      "target": "src_app_core_exceptions_databaseconnectionerror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/core/config.py",
+      "source_location": "L33",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_base_itemrepositoryprotocol",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/repositories/base.py",
+      "source_location": "L22",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_repositories_item_repository_itemrepository",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": "L44",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L43",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_repositories_base_itemrepositoryprotocol",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L23",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L24",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_schemas_item_itemlistresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L46",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L26",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L51",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_valid_payload",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L68",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L104",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L18",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_save_inserts_and_commits",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L30",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L59",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L71",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_all_returns_list",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L84",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L97",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L69",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L114",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L134",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_create_item_success",
+      "target": "src_app_schemas_item_itemcreaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L24",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_create_item_success",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L25",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_get_item_found",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L48",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_list_items",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L78",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_success",
+      "target": "src_app_schemas_item_itemresponse",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L94",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_success",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L93",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "target": "src_app_schemas_item_itemupdaterequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L110",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_item_service",
+      "target": "src_app_services_item_service_itemservice",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L19",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_init",
+      "target": "src_app_repositories_item_repository_itemrepository",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_get_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_update_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_delete_item",
+      "target": "src_app_core_exceptions_itemnotfounderror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_health_check_route",
+      "target": "src_app_main_lambda_handler",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_valid_payload",
+      "target": "src_app_main_lambda_handler",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_invalid_payload_returns_400",
+      "target": "src_app_main_lambda_handler",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "target": "src_app_main_lambda_handler",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_api_routes_health_initialize_database",
+      "target": "src_app_repositories_item_repository_itemrepository_init_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/api/routes/health.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_get_turso_credentials",
+      "target": "os",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/core/config.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_core_config_get_turso_credentials",
+      "target": "json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/core/config.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_create_item",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_save",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_get_item",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_list_items",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_update_item",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_update",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app_services_item_service_itemservice_delete_item",
+      "target": "src_app_repositories_base_itemrepositoryprotocol_delete",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_build_apigw_v2_event",
+      "target": "json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_health_check_route",
+      "target": "json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_integration_test_routes_test_create_item_valid_payload",
+      "target": "json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/integration/test_routes.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "target": "src_app_repositories_item_repository_itemrepository_init_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_save_inserts_and_commits",
+      "target": "src_app_repositories_item_repository_itemrepository_save",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "target": "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_find_all_returns_list",
+      "target": "src_app_repositories_item_repository_itemrepository_find_all",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "target": "src_app_repositories_item_repository_itemrepository_delete",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_repositories.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_create_item_success",
+      "target": "src_app_services_item_service_itemservice_create_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_get_item_found",
+      "target": "src_app_services_item_service_itemservice_get_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "target": "pytest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "target": "src_app_services_item_service_itemservice_get_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_list_items",
+      "target": "src_app_services_item_service_itemservice_list_items",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_success",
+      "target": "src_app_services_item_service_itemservice_update_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "target": "pytest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "target": "src_app_services_item_service_itemservice_update_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_delete_item_success",
+      "target": "src_app_services_item_service_itemservice_delete_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "target": "pytest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "target": "src_app_services_item_service_itemservice_delete_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/test_services.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [],
+  "extracted_sources": [
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\pyproject.toml",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\router.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\health.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\api\\routes\\items.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\config.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\database.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\core\\exceptions.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\main.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\base.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\repositories\\item_repository.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\schemas\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\schemas\\item.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\services\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\src\\app\\services\\item_service.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\conftest.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\integration\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\integration\\test_routes.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\__init__.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\test_repositories.py",
+    "C:\\Users\\cesar\\repos\\python_lambda_template\\tests\\unit\\test_services.py"
+  ]
+}

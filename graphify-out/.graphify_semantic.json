@@ -1,0 +1,329 @@
+{
+  "nodes": [
+    {
+      "id": "doc_architecture",
+      "label": "Clean Architecture & Design",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "doc_development_guide",
+      "label": "New Resource Development Guide",
+      "file_type": "document",
+      "source_file": "docs/development-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "doc_database_turso",
+      "label": "Turso Serverless & libSQL",
+      "file_type": "document",
+      "source_file": "docs/database-turso.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "doc_api_conventions",
+      "label": "API Conventions & HTTP API v2",
+      "file_type": "document",
+      "source_file": "docs/api-conventions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "doc_testing_guide",
+      "label": "Automated Testing Strategy",
+      "file_type": "document",
+      "source_file": "docs/testing-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "backlog_versioning",
+      "label": "Trunk-Based Development & SemVer",
+      "file_type": "document",
+      "source_file": "backlog/VERSIONING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "backlog_roadmap",
+      "label": "Pending Features Roadmap",
+      "file_type": "document",
+      "source_file": "backlog/pending/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "backlog_completed_history",
+      "label": "Completed Features History",
+      "file_type": "document",
+      "source_file": "backlog/completed/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "feat_000_base",
+      "label": "FEAT-000: Plantilla Base Serverless",
+      "file_type": "document",
+      "source_file": "backlog/completed/FEAT-000-plantilla-base.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "feat_001_users",
+      "label": "FEAT-001: Módulo de Gestión de Usuarios",
+      "file_type": "document",
+      "source_file": "backlog/pending/FEAT-001-usuarios-crud.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "infra_sam_template",
+      "label": "AWS SAM Infrastructure Template",
+      "file_type": "document",
+      "source_file": "template.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Equipo de Desarrollo",
+      "contributor": null
+    },
+    {
+      "id": "concept_clean_architecture",
+      "label": "Clean Architecture Layering",
+      "file_type": "rationale",
+      "source_file": "docs/architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_warm_start",
+      "label": "Connection Re-use (Warm Starts)",
+      "file_type": "rationale",
+      "source_file": "docs/database-turso.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_pure_python_driver",
+      "label": "turso-serverless Pure Python DB-API",
+      "file_type": "rationale",
+      "source_file": "docs/database-turso.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_architecture",
+      "target": "concept_clean_architecture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_clean_architecture",
+      "target": "src/app/services/item_service.py",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_database_turso",
+      "target": "concept_pure_python_driver",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/database-turso.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_pure_python_driver",
+      "target": "src/app/core/database.py",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/core/database.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_database_turso",
+      "target": "concept_warm_start",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/database-turso.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_warm_start",
+      "target": "src/app/core/database.py",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/core/database.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src/app/api/routes/items.py",
+      "target": "src/app/services/item_service.py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/routes/items.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src/app/services/item_service.py",
+      "target": "src/app/repositories/item_repository.py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/services/item_service.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src/app/repositories/item_repository.py",
+      "target": "src/app/core/database.py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/repositories/item_repository.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infra_sam_template",
+      "target": "src/app/main.py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "template.yaml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "feat_000_base",
+      "target": "doc_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backlog/completed/FEAT-000-plantilla-base.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "backlog_roadmap",
+      "target": "feat_001_users",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backlog/pending/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "backlog_completed_history",
+      "target": "feat_000_base",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backlog/completed/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_testing_guide",
+      "target": "tests/unit/test_services.py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/testing-guide.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_testing_guide",
+      "target": "tests/integration/test_routes.py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/testing-guide.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "clean_architecture_pipeline",
+      "label": "Clean Architecture Flow: API -> Service -> Repository -> Database",
+      "nodes": [
+        "src/app/api/routes/items.py",
+        "src/app/schemas/item.py",
+        "src/app/services/item_service.py",
+        "src/app/repositories/item_repository.py",
+        "src/app/core/database.py"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture.md"
+    }
+  ],
+  "input_tokens": 1250,
+  "output_tokens": 850
+}

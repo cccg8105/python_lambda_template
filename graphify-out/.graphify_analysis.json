@@ -1,0 +1,441 @@
+{
+  "communities": {
+    "0": [
+      "basemodel",
+      "protocol",
+      "pydantic",
+      "src_app_repositories_base",
+      "src_app_repositories_base_itemrepositoryprotocol",
+      "src_app_repositories_base_itemrepositoryprotocol_find_all",
+      "src_app_repositories_base_itemrepositoryprotocol_find_by_id",
+      "src_app_repositories_base_itemrepositoryprotocol_init_table",
+      "src_app_repositories_base_itemrepositoryprotocol_save",
+      "src_app_repositories_base_itemrepositoryprotocol_update",
+      "src_app_repositories_base_rationale_1",
+      "src_app_repositories_base_rationale_12",
+      "src_app_repositories_base_rationale_23",
+      "src_app_repositories_base_rationale_27",
+      "src_app_repositories_base_rationale_31",
+      "src_app_repositories_base_rationale_41",
+      "src_app_repositories_base_rationale_9",
+      "src_app_schemas_item",
+      "src_app_schemas_item_itembase",
+      "src_app_schemas_item_itemcreaterequest",
+      "src_app_schemas_item_itemlistresponse",
+      "src_app_schemas_item_itemresponse",
+      "src_app_schemas_item_rationale_1",
+      "src_app_schemas_item_rationale_17",
+      "src_app_schemas_item_rationale_29",
+      "src_app_schemas_item_rationale_38",
+      "src_app_schemas_item_rationale_7",
+      "src_app_services_item_service",
+      "src_app_services_item_service_itemservice",
+      "src_app_services_item_service_itemservice_create_item",
+      "src_app_services_item_service_itemservice_init",
+      "src_app_services_item_service_itemservice_list_items",
+      "src_app_services_item_service_rationale_1",
+      "src_app_services_item_service_rationale_21",
+      "src_app_services_item_service_rationale_27",
+      "src_app_services_item_service_rationale_47",
+      "tests_unit_test_services_test_create_item_success",
+      "tests_unit_test_services_test_list_items",
+      "typing",
+      "uuid"
+    ],
+    "1": [
+      "src_app_api_routes_health_initialize_database",
+      "src_app_api_routes_health_py_post",
+      "src_app_api_routes_health_rationale_26",
+      "src_app_repositories_item_repository_itemrepository",
+      "src_app_repositories_item_repository_itemrepository_delete",
+      "src_app_repositories_item_repository_itemrepository_find_all",
+      "src_app_repositories_item_repository_itemrepository_find_by_id",
+      "src_app_repositories_item_repository_itemrepository_init",
+      "src_app_repositories_item_repository_itemrepository_init_table",
+      "src_app_repositories_item_repository_itemrepository_save",
+      "src_app_repositories_item_repository_itemrepository_update",
+      "src_app_repositories_item_repository_rationale_114",
+      "src_app_repositories_item_repository_rationale_142",
+      "src_app_repositories_item_repository_rationale_15",
+      "src_app_repositories_item_repository_rationale_21",
+      "src_app_repositories_item_repository_rationale_45",
+      "src_app_repositories_item_repository_rationale_67",
+      "src_app_repositories_item_repository_rationale_84",
+      "tests_unit_test_repositories",
+      "tests_unit_test_repositories_create_mock_connection",
+      "tests_unit_test_repositories_rationale_1",
+      "tests_unit_test_repositories_test_delete_returns_true_when_found",
+      "tests_unit_test_repositories_test_find_all_returns_list",
+      "tests_unit_test_repositories_test_find_by_id_returns_item_when_exists",
+      "tests_unit_test_repositories_test_find_by_id_returns_none_when_not_found",
+      "tests_unit_test_repositories_test_init_table_executes_ddl",
+      "tests_unit_test_repositories_test_save_inserts_and_commits"
+    ],
+    "2": [
+      "any",
+      "aws_lambda_powertools",
+      "aws_lambda_powertools_event_handler",
+      "aws_lambda_powertools_utilities_typing",
+      "collections_abc",
+      "datetime",
+      "src_app_api_router",
+      "src_app_api_router_rationale_1",
+      "src_app_api_routes_health",
+      "src_app_api_routes_health_health_check",
+      "src_app_api_routes_health_py_get",
+      "src_app_api_routes_health_rationale_1",
+      "src_app_api_routes_health_rationale_16",
+      "src_app_core_database",
+      "src_app_core_database_get_turso_connection",
+      "src_app_core_database_rationale_1",
+      "src_app_core_database_rationale_16",
+      "src_app_core_database_rationale_33",
+      "src_app_core_database_rationale_39",
+      "src_app_core_database_reset_turso_connection",
+      "src_app_core_database_set_turso_connection",
+      "src_app_main",
+      "src_app_main_rationale_1",
+      "src_app_repositories_item_repository",
+      "src_app_repositories_item_repository_rationale_1",
+      "turso_serverless"
+    ],
+    "3": [
+      "pytest",
+      "src_app_core_exceptions_itemnotfounderror",
+      "src_app_core_exceptions_rationale_13",
+      "src_app_repositories_base_itemrepositoryprotocol_delete",
+      "src_app_repositories_base_rationale_45",
+      "src_app_schemas_item_itemupdaterequest",
+      "src_app_schemas_item_rationale_21",
+      "src_app_services_item_service_itemservice_delete_item",
+      "src_app_services_item_service_itemservice_get_item",
+      "src_app_services_item_service_itemservice_update_item",
+      "src_app_services_item_service_rationale_40",
+      "src_app_services_item_service_rationale_52",
+      "src_app_services_item_service_rationale_67",
+      "tests_unit_test_services",
+      "tests_unit_test_services_item_service",
+      "tests_unit_test_services_mock_repository",
+      "tests_unit_test_services_py_fixture",
+      "tests_unit_test_services_rationale_1",
+      "tests_unit_test_services_test_delete_item_not_found_raises_exception",
+      "tests_unit_test_services_test_delete_item_success",
+      "tests_unit_test_services_test_get_item_found",
+      "tests_unit_test_services_test_get_item_not_found_raises_exception",
+      "tests_unit_test_services_test_update_item_not_found_raises_exception",
+      "tests_unit_test_services_test_update_item_success",
+      "unittest_mock"
+    ],
+    "4": [
+      "aws_lambda_powertools_event_handler_api_gateway",
+      "aws_lambda_powertools_event_handler_exceptions",
+      "delete",
+      "put",
+      "src_app_api_routes_items",
+      "src_app_api_routes_items_create_item",
+      "src_app_api_routes_items_delete_item",
+      "src_app_api_routes_items_get_item",
+      "src_app_api_routes_items_list_items",
+      "src_app_api_routes_items_py_get",
+      "src_app_api_routes_items_py_post",
+      "src_app_api_routes_items_rationale_1",
+      "src_app_api_routes_items_rationale_21",
+      "src_app_api_routes_items_rationale_41",
+      "src_app_api_routes_items_rationale_55",
+      "src_app_api_routes_items_rationale_65",
+      "src_app_api_routes_items_rationale_84",
+      "src_app_api_routes_items_update_item"
+    ],
+    "5": [
+      "aws_lambda_powertools_utilities",
+      "exception",
+      "os",
+      "src_app_core_config",
+      "src_app_core_config_get_turso_credentials",
+      "src_app_core_config_rationale_1",
+      "src_app_core_config_rationale_15",
+      "src_app_core_exceptions",
+      "src_app_core_exceptions_appexception",
+      "src_app_core_exceptions_appexception_init",
+      "src_app_core_exceptions_databaseconnectionerror",
+      "src_app_core_exceptions_itemalreadyexistserror",
+      "src_app_core_exceptions_rationale_1",
+      "src_app_core_exceptions_rationale_17",
+      "src_app_core_exceptions_rationale_21",
+      "src_app_core_exceptions_rationale_5"
+    ],
+    "6": [
+      "inject_lambda_context",
+      "json",
+      "lambdacontext",
+      "src_app_main_lambda_handler",
+      "src_app_main_rationale_16",
+      "tests_integration_test_routes",
+      "tests_integration_test_routes_build_apigw_v2_event",
+      "tests_integration_test_routes_rationale_1",
+      "tests_integration_test_routes_rationale_16",
+      "tests_integration_test_routes_test_create_item_invalid_payload_returns_400",
+      "tests_integration_test_routes_test_create_item_valid_payload",
+      "tests_integration_test_routes_test_get_item_not_found_returns_404",
+      "tests_integration_test_routes_test_health_check_route"
+    ],
+    "7": [
+      "dataclasses",
+      "tests_conftest",
+      "tests_conftest_lambda_context",
+      "tests_conftest_lambdacontextmock",
+      "tests_conftest_py_fixture",
+      "tests_conftest_rationale_1",
+      "tests_conftest_rationale_10",
+      "tests_conftest_rationale_21",
+      "tests_conftest_rationale_31",
+      "tests_conftest_setup_test_environment"
+    ],
+    "8": [
+      "backlog_completed_history",
+      "concept_clean_architecture",
+      "doc_architecture",
+      "feat_000_base"
+    ],
+    "9": [
+      "concept_pure_python_driver",
+      "concept_warm_start",
+      "doc_database_turso"
+    ],
+    "10": [
+      "backlog_roadmap",
+      "feat_001_users"
+    ],
+    "11": [
+      "src_app_api_init",
+      "src_app_api_init_rationale_1"
+    ],
+    "12": [
+      "src_app_api_routes_init",
+      "src_app_api_routes_init_rationale_1"
+    ],
+    "13": [
+      "src_app_core_init",
+      "src_app_core_init_rationale_1"
+    ],
+    "14": [
+      "src_app_init",
+      "src_app_init_rationale_1"
+    ],
+    "15": [
+      "src_app_repositories_init",
+      "src_app_repositories_init_rationale_1"
+    ],
+    "16": [
+      "src_app_schemas_init",
+      "src_app_schemas_init_rationale_1"
+    ],
+    "17": [
+      "src_app_services_init",
+      "src_app_services_init_rationale_1"
+    ],
+    "18": [
+      "tests_integration_init",
+      "tests_integration_init_rationale_1"
+    ],
+    "19": [
+      "backlog_versioning"
+    ],
+    "20": [
+      "doc_api_conventions"
+    ],
+    "21": [
+      "doc_development_guide"
+    ],
+    "22": [
+      "doc_testing_guide"
+    ],
+    "23": [
+      "infra_sam_template"
+    ],
+    "24": [
+      "pkg_python_lambda_turso_template"
+    ],
+    "25": [
+      "tests_init"
+    ],
+    "26": [
+      "tests_unit_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08461538461538462,
+    "1": 0.13105413105413105,
+    "2": 0.09538461538461539,
+    "3": 0.12666666666666668,
+    "4": 0.11764705882352941,
+    "5": 0.16666666666666666,
+    "6": 0.28205128205128205,
+    "7": 0.24444444444444444,
+    "8": 0.5,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_app_schemas_item_itemresponse",
+      "label": "ItemResponse",
+      "degree": 25
+    },
+    {
+      "id": "src_app_repositories_item_repository_itemrepository",
+      "label": "ItemRepository",
+      "degree": 21
+    },
+    {
+      "id": "src_app_services_item_service_itemservice",
+      "label": "ItemService",
+      "degree": 17
+    },
+    {
+      "id": "src_app_core_exceptions_itemnotfounderror",
+      "label": "ItemNotFoundError",
+      "degree": 16
+    },
+    {
+      "id": "src_app_repositories_base_itemrepositoryprotocol",
+      "label": "ItemRepositoryProtocol",
+      "degree": 13
+    },
+    {
+      "id": "src_app_schemas_item_itemupdaterequest",
+      "label": "ItemUpdateRequest",
+      "degree": 10
+    },
+    {
+      "id": "src_app_schemas_item_itemcreaterequest",
+      "label": "ItemCreateRequest",
+      "degree": 9
+    },
+    {
+      "id": "src_app_main_lambda_handler",
+      "label": "lambda_handler()",
+      "degree": 8
+    },
+    {
+      "id": "src_app_core_config_get_turso_credentials",
+      "label": "get_turso_credentials()",
+      "degree": 7
+    },
+    {
+      "id": "src_app_core_exceptions_appexception",
+      "label": "AppException",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "test_get_item_not_found_returns_404()",
+      "target": "ItemNotFoundError",
+      "source_files": [
+        "tests/integration/test_routes.py",
+        "src/app/core/exceptions.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "test_create_item_valid_payload()",
+      "target": "ItemResponse",
+      "source_files": [
+        "tests/integration/test_routes.py",
+        "src/app/schemas/item.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "test_get_item_found()",
+      "target": "ItemResponse",
+      "source_files": [
+        "tests/unit/test_services.py",
+        "src/app/schemas/item.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "test_update_item_success()",
+      "target": "ItemResponse",
+      "source_files": [
+        "tests/unit/test_services.py",
+        "src/app/schemas/item.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "item_service()",
+      "target": "ItemService",
+      "source_files": [
+        "tests/unit/test_services.py",
+        "src/app/services/item_service.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ItemResponse` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 6`?",
+      "why": "High betweenness centrality (0.143) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 8 inferred relationships involving `ItemResponse` (e.g. with `ItemRepositoryProtocol` and `ItemRepository`) actually correct?",
+      "why": "`ItemResponse` has 8 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `python-lambda-turso-template`, `New Resource Development Guide`, `API Conventions & HTTP API v2` to the rest of the system?",
+      "why": "9 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08461538461538462 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ItemRepository` connect `Community 1` to `Community 0`, `Community 2`?",
+      "why": "High betweenness centrality (0.126) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 9 inferred relationships involving `ItemRepository` (e.g. with `initialize_database()` and `ItemResponse`) actually correct?",
+      "why": "`ItemRepository` has 9 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13105413105413105 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
