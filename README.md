@@ -73,6 +73,16 @@ El repositorio incluye directrices para que los asistentes de IA mantengan la co
 - [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)
 - Python 3.13 (fijado automáticamente por `.python-version`)
 
+## 🚀 Inicialización para un Nuevo Proyecto (Uso como Plantilla)
+
+Si acabas de clonar este repositorio o crearlo mediante **"Use this template"** en GitHub para desarrollar un nuevo microservicio:
+
+```bash
+uv run python scripts/init_project.py
+```
+
+El script interactivo solicitará el nombre y descripción del nuevo servicio, actualizará de manera global la configuración de empaquetado (`pyproject.toml`), nombres de stacks de AWS SAM (`template.yaml` y `samconfig.toml`), nombres de servicios en logs y pruebas, limpiará los ejemplos del backlog y opcionalmente reinicializará un repositorio Git con un commit inicial limpio.
+
 ---
 
 ## 🛠️ Instalación y Configuración Local
