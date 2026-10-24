@@ -8,6 +8,7 @@ Para este tutorial, crearemos el recurso **`User`** (`/users`), cubriendo desde 
 
 ## 🧭 Flujo de Trabajo (Orden de Implementación)
 
+0. **[Paso 0: Crear la rama del feature en Git](#paso-0-crear-la-rama-del-feature-en-git)** (`feat/FEAT-XXX-slug`)
 1. **[Paso 1: Schemas y DTOs](#paso-1-definir-schemas-y-dtos)** (`src/app/schemas/user.py`)
 2. **[Paso 2: Protocolo de Persistencia](#paso-2-definir-el-protocolo-de-persistencia)** (`src/app/repositories/base.py`)
 3. **[Paso 3: Repositorio Turso](#paso-3-implementar-el-repositorio)** (`src/app/repositories/user_repository.py`)
@@ -15,6 +16,21 @@ Para este tutorial, crearemos el recurso **`User`** (`/users`), cubriendo desde 
 5. **[Paso 5: Controlador y Rutas](#paso-5-crear-el-controlador-y-rutas-http)** (`src/app/api/routes/users.py`)
 6. **[Paso 6: Registro en el Entrypoint](#paso-6-registrar-las-rutas-en-mainpy)** (`src/app/main.py`)
 7. **[Paso 7: Pruebas Automatizadas](#paso-7-escribir-pruebas-unitarias-e-integrales)** (`tests/`)
+
+---
+
+## Paso 0: Crear la rama del feature en Git
+
+Antes de escribir cualquier línea de código, sitúate en `main` actualizado y crea una nueva rama de corta duración con el identificador del requerimiento:
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feat/FEAT-001-usuarios-crud
+```
+
+> [!IMPORTANT]
+> Nunca implementes código directamente sobre la rama `main`. Toda modificación debe vivir en su rama temática y reintegrarse a `main` tras superar la suite de pruebas.
 
 ---
 

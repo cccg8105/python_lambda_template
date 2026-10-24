@@ -17,12 +17,13 @@ main ────●────────────────────
 ```
 
 ### Reglas de Ramas:
-1. Las ramas de trabajo nacen de `main` y tienen un tiempo de vida corto (idealmente menos de 2 días).
-2. Nomenclatura de ramas:
+1. **Creación previa obligatoria:** Antes de iniciar cualquier implementación técnica de un feature, se crea una rama corta a partir de `main` (`git checkout -b feat/FEAT-XXX-slug main`). Está terminantemente prohibido implementar código directamente en `main`.
+2. Las ramas de trabajo tienen un tiempo de vida corto (idealmente de 1 a 2 días máximo).
+3. Nomenclatura obligatoria de ramas:
    - Funcionalidades: `feat/FEAT-XXX-slug`
    - Correcciones: `fix/FIX-XXX-slug`
    - Deuda técnica / Refactor: `tech/TECH-XXX-slug`
-3. Cada merge a `main` debe tener la suite de pruebas al 100% en verde (`uv run pytest -v`).
+4. Cada merge a `main` debe tener la suite de pruebas al 100% en verde (`uv run pytest -v`) y linter limpio (`uv run ruff check .`).
 
 ---
 

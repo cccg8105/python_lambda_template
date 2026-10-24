@@ -53,6 +53,19 @@ El proyecto cuenta con un sistema ágil para la planificación y entrega continu
 
 ---
 
+## 🤖 Reglas y Directrices de Antigravity
+
+El repositorio incluye directrices para que los asistentes de IA mantengan la consistencia y respeten la arquitectura del proyecto:
+
+- 📋 **[GEMINI.md](GEMINI.md)**: Reglas maestras del proyecto (cargadas automáticamente por Antigravity).
+- 🏛️ **[.agents/rules/architecture.md](.agents/rules/architecture.md)**: Convenciones de Clean Architecture y responsabilidades por capa.
+- ⚡ **[.agents/rules/database.md](.agents/rules/database.md)**: Conexión con Turso Serverless, warm starts y consultas seguras.
+- 🧪 **[.agents/rules/quality.md](.agents/rules/quality.md)**: Tipado moderno en Python 3.13, verificación con pytest y ruff.
+- 🌳 **[.agents/rules/workflow.md](.agents/rules/workflow.md)**: Trunk-Based Development, Conventional Commits y ciclo del backlog.
+
+---
+
+
 
 ## 🚀 Requisitos Previos
 

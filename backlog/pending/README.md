@@ -29,3 +29,18 @@ Este documento centraliza el listado de todos los requerimientos pendientes por 
 2. Nómbralo siguiendo el estándar: `FEAT-XXX-nombre-corto.md` (o `TECH-XXX` / `FIX-XXX`).
 3. Diligencia la historia de usuario, criterios de aceptación y versión estimada.
 4. Agrega una nueva fila en la tabla de este archivo con el enlace correspondiente.
+
+---
+
+## 🚀 Cómo Empezar a Implementar un Requerimiento
+
+Al tomar un requerimiento de esta lista para iniciar su desarrollo:
+1. **Crear la rama temática a partir de `main`:**
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b feat/FEAT-XXX-slug
+   ```
+2. Sigue la [Guía de Desarrollo](../../docs/development-guide.md) paso a paso.
+3. Asegura el 100% de tests (`uv run pytest -v`) antes de solicitar merge hacia `main`.
+

@@ -46,5 +46,9 @@ stateDiagram-v2
 
 ### Reglas de Transición:
 1. **Creación:** Se copia `TEMPLATE.md` en `pending/` con prefijo `FEAT-XXX`, `TECH-XXX` o `FIX-XXX`. Se agrega a la tabla en [pending/README.md](pending/README.md).
-2. **Desarrollo:** Se crea una rama corta `feat/FEAT-XXX-slug` basada en `main`.
+2. **Inicio del Desarrollo (Paso Previo Obligatorio):** Antes de tocar cualquier archivo de código o tests, se crea una rama corta a partir de `main`:
+   ```bash
+   git checkout -b feat/FEAT-XXX-slug main
+   ```
+   *Está prohibido desarrollar directamente sobre la rama `main`.*
 3. **Cierre:** Cuando se cumplen todos los criterios de aceptación y la suite de pruebas está al 100%, el archivo se mueve físicamente a `completed/`, se actualizan los índices en `pending/README.md` y `completed/README.md`, y se registra en `CHANGELOG.md`.
