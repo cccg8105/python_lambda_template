@@ -52,6 +52,9 @@ def test_health_check_route(lambda_context):
     response = lambda_handler(event, lambda_context)
 
     assert response["statusCode"] == 200
+    assert "headers" in response
+    assert "X-Correlation-Id" in response["headers"]
+    assert len(response["headers"]["X-Correlation-Id"]) > 0
     body = json.loads(response["body"])
     assert body["status"] == "healthy"
     assert body["service"] == "turso-api-service"

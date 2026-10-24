@@ -2,12 +2,8 @@
 
 from datetime import UTC, datetime
 
-from aws_lambda_powertools import Logger
-
 from app.api.router import router
 from app.repositories.item_repository import ItemRepository
-
-logger = Logger(child=True)
 
 
 @router.get("/")

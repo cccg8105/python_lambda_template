@@ -3,12 +3,9 @@
 from collections.abc import Callable
 from datetime import UTC, datetime
 
-from aws_lambda_powertools import Logger
-
 from app.core.database import get_turso_connection
+from app.core.logging import logger, trace_call
 from app.schemas.item import ItemResponse
-
-logger = Logger(child=True)
 
 
 class ItemRepository:
@@ -17,6 +14,7 @@ class ItemRepository:
     def __init__(self, connection_factory: Callable | None = None):
         self._get_connection = connection_factory or get_turso_connection
 
+    @trace_call
     def init_table(self) -> None:
         """Crea la tabla 'items' en Turso si aún no existe."""
         conn = self._get_connection()
@@ -34,6 +32,7 @@ class ItemRepository:
             conn.commit()
         logger.info("Tabla 'items' verificada/inicializada en Turso.")
 
+    @trace_call
     def save(
         self,
         item_id: str,
@@ -63,6 +62,7 @@ class ItemRepository:
             created_at=created_at,
         )
 
+    @trace_call
     def find_by_id(self, item_id: str) -> ItemResponse | None:
         """Obtiene un item por ID o None si no existe."""
         conn = self._get_connection()
@@ -80,6 +80,7 @@ class ItemRepository:
                 created_at=row[4],
             )
 
+    @trace_call
     def find_all(self, limit: int = 50, offset: int = 0) -> list[ItemResponse]:
         """Retorna una lista de items ordenada por fecha descendente."""
         conn = self._get_connection()
@@ -104,6 +105,7 @@ class ItemRepository:
                 )
         return items
 
+    @trace_call
     def update(
         self,
         item_id: str,
@@ -138,6 +140,7 @@ class ItemRepository:
             created_at=current.created_at,
         )
 
+    @trace_call
     def delete(self, item_id: str) -> bool:
         """Elimina un item y devuelve True si fue eliminado."""
         if not self.find_by_id(item_id):
