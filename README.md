@@ -41,6 +41,19 @@ Para guías completas de arquitectura, nuevos desarrollos y buenas prácticas, c
 
 ---
 
+## 📋 Gestión del Backlog y Versionamiento
+
+El proyecto cuenta con un sistema ágil para la planificación y entrega continua de funcionalidades:
+
+- 📌 **[Roadmap / Backlog Pendiente](backlog/pending/README.md)**: Listado de funcionalidades por implementar y versión objetivo asignada.
+- 🏁 **[Historial de Features Completados](backlog/completed/README.md)**: Registro de requerimientos finalizados organizados por versión de entrega.
+- 🌳 **[Estrategia de Versionamiento (SemVer & Trunk-Based)](backlog/VERSIONING.md)**: Flujo de ramas, Conventional Commits y releases.
+- 📝 **[Plantilla Ágil de Requerimientos](backlog/TEMPLATE.md)**: Formato estándar para nuevas historias de usuario y DoD.
+- 📜 **[CHANGELOG.md](CHANGELOG.md)**: Historial formal de cambios por versión.
+
+---
+
+
 ## 🚀 Requisitos Previos
 
 - [uv](https://docs.astral.sh/uv/) (Gestor de entornos y paquetes ultrarrápido)
